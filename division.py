@@ -1,9 +1,6 @@
-#Desarrollado por Yahir Leonardo Cayola Cayo 
-def division(numerador, denominador):
-    try:
-        resultado = numerador / denominador
-        return f"El resultado de la división es: {resultado}"
-    except ZeroDivisionError:
+#Desarrollado por Yahir Leonardo Cayola Cayo
+def dividir(num1, num2):
+    if num2 != 0:
+        return num1 / num2
+    else:
         return "Error: No se puede dividir entre cero."
-    except TypeError:
-        return "Error: Los valores deben ser números."
