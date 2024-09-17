@@ -3,7 +3,7 @@ from multiplicar import multiplicar
 # from Raiz Cuadrada import calcular_raiz
 
 
-operacion = input("ingrese una de las siguientes operaciones: + , - , * , / , % , potencia , sqrt , exit: ")
+operacion = input("ingrese una de las siguientes operaciones: + , - , * , / , % , potencia , sqrt , MCM , exit: ")
 
 
 while operacion != "exit":
