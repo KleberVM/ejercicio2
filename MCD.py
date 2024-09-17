@@ -1,3 +1,4 @@
+#Realizado por Orlando Altamirano Vargas
 def mcd():
     # Solicitar al usuario que ingrese dos números
     num1 = int(input("Ingresa el primer número: "))
